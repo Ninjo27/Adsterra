@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const { createClient } = require('@supabase/supabase-js');
 
-const SUPABASE_URL = 'https://your-project.supabase.co'; // Thay bằng project của bạn
-const SUPABASE_SERVICE_ROLE_KEY = 'YOUR_SERVICE_ROLE_KEY'; // Lấy từ Supabase Project Settings
+const SUPABASE_URL = 'https://ibylievcmlzzyzkihzfo.supabase.co'; // Thay bằng project của bạn
+const SUPABASE_SERVICE_ROLE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlieWxpZXZjbWx6enl6a2loemZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk3OTQ4OTYsImV4cCI6MjA2NTM3MDg5Nn0.iJNGvjly4q5M43Xd5uJ8A0OZT7PSrbQWcuhas9WWEiM'; // Lấy từ Supabase Project Settings
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
 
